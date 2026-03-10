@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seekda Task Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 24px;
+    }
+    .card {
+      background: #111827;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.4);
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 22px;
+    }
+    .sub {
+      color: #9ca3af;
+      font-size: 14px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #1f2937;
+    }
+    .row:last-child {
+      border-bottom: none;
+    }
+    .label {
+      color: #9ca3af;
+    }
+    .value {
+      font-weight: 500;
+    }
+    .status {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #f59e0b;
+      color: #111827;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .steps li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    .warning {
+      background: #7f1d1d;
+      border-left: 5px solid #ef4444;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #fecaca;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="card">
+    <h1>Seekda Task Verification</h1>
+    <div class="sub">Internal Task Reference Page</div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div class="label">Task ID</div>
+      <div class="value">SKD18749</div>
+    </div>
+    <div class="row">
+      <div class="label">Hotel</div>
+      <div class="value">The St. Regis Singapore</div>
+    </div>
+    <div class="row">
+      <div class="label">Room Type</div>
+      <div class="value">Penthouse room, 1 King Bed, Cityscape View</div>
+    </div>
+    <div class="row">
+      <div class="label">Commission</div>
+      <div class="value">25% of total room value</div>
+    </div>
+    <div class="row">
+      <div class="label">Status</div>
+      <div class="value"><span class="status">Pending Verification</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:18px;">Task Instructions</h2>
+    <ol class="steps">
+      <li>Open the official booking link below.</li>
+      <li>Select the room according to the task details.</li>
+      <li>Screenshot the price & room details page.</li>
+      <li><strong>Do NOT make payment.</strong> Send screenshot for verification.</li>
+    </ol>
+    <p>
+      🔗 Official Link:<br>
+      <a href="https://www.expedia.com.my/Singapore-Hotels-The-St-Regis-Singapore.h1778579.Hotel-Information?chkin=2026-08-05&chkout=2026-08-06&x_pwa=1&rfrr=HSR&pwa_ts=1758687496819&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20ubXkvSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=3168&destination=Singapore%2C+Singapore&destType=MARKET&neighborhoodId=553248633981690295&latLong=1.29027%2C103.85201&sort=PRICE_HIGH_TO_LOW&top_dp=1698&top_cur=MYR&userIntent=&selectedRoomType=326391013&selectedRatePlan=400982072&searchId=e89b824f-ab40-488d-9410-0b8d655b6e56&startDate=2026-08-05&endDate=2026-08-06
+">
+        https://www.expedia.com.my/
+      </a>
+    </p>
+  </div>
+
+  <div class="warning">
+    ⚠ IMPORTANT NOTICE<br><br>
+    Do not make any payment before confirmation.  
+    Early payment may cause the order to be pending in the system.  
+    Seekda will not be responsible for unverified submissions.
+  </div>
+
+  <footer>
+    © Seekda Internal Task System
+  </footer>
+
+</div>
+
+</body>
+</html>
